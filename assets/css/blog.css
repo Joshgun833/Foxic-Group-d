@@ -15,8 +15,14 @@
 }
 
 .container{
+    display: flex;
+    flex-direction: row;
+    
+    
     
 }
+
+
 
 .visual{
     margin-bottom: 30px;
@@ -37,31 +43,39 @@
 
 
 .btn{
-    background-color: rgb(23, 180, 154)!important;
-    margin-top: 10px!important;
-    height: 40px!important;
-    width: 100px!important;
-    font-size: 11px!important;
+    background-color: rgb(42, 202, 176)!important;
+    margin-top: 45px!important;
+    height: 32px!important;
+    width: 107px!important;
+    font-size: 12px!important;
     font-weight: bold!important;
     border: none!important;
     text-align: center!important;
+    display: flex !important;
+    justify-content: center!important;
+    align-items: center!important;
+    color: white!important;
 }
 
+.btn:hover {
 
-
-.main2{
-    width: 250px;
-    height: 100px;
-    background-color: blue;
+    background-color: rgb(41, 40, 40)!important;
+    
 }
+
 
 .card{
     border: none!important;
 }
 
-.text{
-    margin: 0 15px!important;
-    letter-spacing: 10px;
+.card-text{
+    margin: 20px 0!important;
+}
+
+.card-title:hover {
+
+    color:rgb(42, 202, 176)!important;
+    cursor: pointer!important;
 }
 
 .date{
@@ -74,3 +88,72 @@
 .comment{
     margin-left: 20px;
 }
+
+
+.main2{
+    margin-left: 28px;
+    width: 500px;
+    height: 900px;
+    
+   
+
+}
+
+.main2-alt1{
+    width: 250px;
+}
+
+.tags{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    padding: 8px;
+    
+}
+
+.tag-link:link {
+    text-decoration: none;
+}
+
+.tag-link:visited{
+    color: black;
+}
+
+.tag-link:active{
+    text-decoration: none;
+}
+
+.tag-link:hover{
+
+    color: white;
+    font-weight: 500;
+    transition: 0s;
+
+}
+
+li{
+     margin: 5px;
+    font-size: 12px;
+    background-color: #f9f9f9;
+    width: 70px;
+    height: 35px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    line-height: 36px;
+    }
+
+li:hover{
+    background-color:rgb(42, 202, 176);
+    transition: 0s;
+    
+}
+
+.popular{
+    font-weight: 500;
+    color: white;
+}
+
