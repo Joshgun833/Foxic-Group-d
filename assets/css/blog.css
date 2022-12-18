@@ -112,25 +112,6 @@
     
 }
 
-.tag-link:link {
-    text-decoration: none;
-}
-
-.tag-link:visited{
-    color: black;
-}
-
-.tag-link:active{
-    text-decoration: none;
-}
-
-.tag-link:hover{
-
-    color: white;
-    font-weight: 500;
-    transition: 0s;
-
-}
 
 li{
      margin: 5px;
@@ -148,12 +129,26 @@ li{
 
 li:hover{
     background-color:rgb(42, 202, 176);
-    transition: 0s;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    
     
 }
 
 .popular{
     font-weight: 500;
-    color: white;
+    margin-left: 12px;
 }
 
+
+.main2-alt2{
+    margin: 25px 0;
+
+}
+
+.post{
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+}
