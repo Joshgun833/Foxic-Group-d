@@ -43,6 +43,7 @@ position: relative;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
+    cursor: pointer;
 }
 
 .img2 {
@@ -55,9 +56,7 @@ position: relative;
 .img img {
     width: 100%;
 }
-.img1 img:hover{
-scale: 1.1;
-}
+
 .top{
     position: absolute;
     
@@ -75,4 +74,37 @@ scale: 1.1;
 .top p{
     font-size: 14px;
     color: #a6aab7;
+}
+.img2{
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    cursor: pointer; 
+}
+.Bottom{
+    position: absolute;
+    
+
+    width: 110px;
+    height: 70px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: white;
+}
+.Bottom h2{
+    font-size: 20px;
+    color: #282828;
+}
+.Bottom p{
+    font-size: 14px;
+    color: #a6aab7;
+}
+.womens{
+    margin-top: 70px;
+    text-align: center;
 }
