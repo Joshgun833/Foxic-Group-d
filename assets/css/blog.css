@@ -114,7 +114,7 @@
 
 
 li{
-     margin: 5px;
+    margin: 5px;
     font-size: 12px;
     background-color: #f9f9f9;
     width: 70px;
@@ -144,11 +144,120 @@ li:hover{
 
 .main2-alt2{
     margin: 25px 0;
+    display: flex;
+    flex-direction: column;
 
+}
+
+.pop-post{
+    font-weight: 500;
+    margin-top: 30px;
 }
 
 .post{
     width: 250px;
     height: 150px;
     object-fit: cover;
+    margin-bottom: 18px;
+}
+
+.aug{
+    font-size: 12px;
+    opacity: 0.5;
+}
+
+.jon{
+    opacity: 0.5;
+    font-size: 12px;
+}
+
+.comment2{
+    font-size: 12px;
+    margin-top: 0px;
+    color: rgb(42, 202, 176);
+}
+
+.comment2:hover{
+    color:black ;
+}
+
+.foxic-theme{
+    font-weight: 550;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.foxic-theme:hover{
+
+    color: rgb(42, 202, 176);
+
+}
+
+.main2-alt3{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+   
+}
+
+.meta{
+    font-size: 18px;
+    font-weight: 550;
+    margin-top: 80px;
+
+}
+
+.meta-alt{
+    font-size: 14px;
+}
+
+.meta-alt:hover{
+
+    color: rgb(42, 202, 176);
+}
+
+.number{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    font-weight: 550;
+    margin-top: 30px;
+    margin-left: 110px;
+    letter-spacing: 10px;
+    cursor: pointer;
+}
+
+.one{
+    background-color: rgb(206, 206, 206);   
+    width: 40px;
+    height: 35px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 6px;
+}
+
+.one:hover{
+    color: black;
+    background-color:rgb(206, 206, 206) ;
+}
+
+.numb{
+    width: 40px;
+    height: 35px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 6px;
+}
+
+.numb:hover{
+    background-color: rgb(206, 206, 206);   
+    color: black;
 }
