@@ -4,9 +4,7 @@
   font-family: "Open Sans", sans-serif;
   box-sizing: border-box;
 }
-body {
-  /* background-color: #5b3838 !important; */
-}
+
 .slide {
   box-sizing: border-box;
   height: 90vh;
@@ -383,4 +381,11 @@ transition: 0.5s;
     white-space: nowrap;
     -ms-flex-align: center;
     align-items: center;
+}
+.footer-head{
+  background-color: #282828;
+  color: #efefef;
+}
+.footer-head-blok{
+  display: flex;
 }
