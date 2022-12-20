@@ -212,3 +212,58 @@ span {
     background-color: black;
     transition: 0.5s;
 }
+.clear a{
+background-color: #efefef;
+color: #282828;
+text-decoration: none;
+padding: 4px 11px;
+font-size: 13px;
+font-weight: 500;
+line-height: 29px;
+text-transform: uppercase;
+border-radius: 3px;
+}
+.clear a:hover{
+    background-color: #282828;
+    color: white;
+    transition: 0.5s;
+}
+.clear p{
+    font-size: 13px;
+}
+.clear span{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 29px;
+}
+.clear{
+    display: flex;
+    gap: 120px;
+}
+.categories{
+    display: flex;
+}
+.categories p{
+color: #282828;
+font-size: 13px;
+font-weight: 500;
+line-height: 29px;
+}
+.color-accordion{
+    display: flex;
+    justify-content: space-between;
+}
+.body-size{
+    display: flex;
+    justify-content: space-between;
+}
+.images img{
+    width: 100%;
+}
+.menu{
+    margin-bottom: 20px;
+}
+.images{
+    padding-bottom: 20px;
+}
+
