@@ -30,12 +30,16 @@
 
 }
 
-.fa-chevron-right{
-    font-size: 9px !important; 
-   
+.fa-chevron-right {
+    font-size: 9px !important;
+
 }
+.img{
+    margin-top: 20px;
+}
+
 .img1 {
-position: relative;
+    position: relative;
     padding-left: 15px;
     padding-right: 15px;
     margin-top: 30px;
@@ -57,25 +61,26 @@ position: relative;
     width: 100%;
 }
 
-.top{
+.top {
     position: absolute;
-    
-
     width: 110px;
     height: 70px;
     box-sizing: border-box;
     text-align: center;
     background-color: white;
 }
-.top h2{
+
+.top h2 {
     font-size: 20px;
     color: #282828;
 }
-.top p{
+
+.top p {
     font-size: 14px;
     color: #a6aab7;
 }
-.img2{
+
+.img2 {
     position: relative;
     padding-left: 15px;
     padding-right: 15px;
@@ -84,27 +89,87 @@ position: relative;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-    cursor: pointer; 
+    cursor: pointer;
 }
-.Bottom{
-    position: absolute;
-    
 
+.Bottom {
+    position: absolute;
     width: 110px;
     height: 70px;
     box-sizing: border-box;
     text-align: center;
     background-color: white;
 }
-.Bottom h2{
+
+.Bottom h2 {
     font-size: 20px;
     color: #282828;
 }
-.Bottom p{
+
+.Bottom p {
     font-size: 14px;
     color: #a6aab7;
 }
-.womens{
+
+.womens {
     margin-top: 70px;
     text-align: center;
+}
+
+i {
+    color: black;
+    font-size: 25px;
+
+}
+
+.menu {
+    display: flex;
+    justify-content: end;
+    gap: 45px;
+    margin-top: 40px;
+}
+
+.menu p {
+    margin-top: 5px;
+}
+
+#sort option {
+    background-color: #f1f1f1;
+
+}
+
+#sort {
+    padding: 5px 20px;
+    box-sizing: border-box;
+    background-color: #f7f7f8;
+    border: none;
+}
+
+#view {
+    padding: 5px 20px;
+    background-color: #f7f7f8;
+    border: none;
+    box-sizing: border-box;
+}
+
+label {
+    font-weight: bold;
+}
+
+span {
+    padding: 0px 5px;
+}
+
+.fa-solid {
+    color: #aeb0b8;
+    cursor: pointer;
+}
+
+.fa-black {
+    color: black;
+}
+
+.fa-solid:hover {
+    color: black;
+    transition: 0.5s;
 }
