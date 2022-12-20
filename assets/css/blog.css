@@ -11,12 +11,7 @@
     display: flex;
     justify-content: center;
    font-family: 'Open Sans', sans-serif;
-   margin: 30px;
-}
-
-@media(max-width:768px){
-
-
+   margin: 2rem;
 }
 
 .container{
@@ -54,8 +49,8 @@
 
 .visual{
     margin-bottom:30px;
-    width: 900px;
-    height: 300px;
+    width: 57rem;
+    height: 19rem;
     display: flex;
     
 }
@@ -64,8 +59,8 @@
     .visual{
         display: flex;
         flex-direction: column;
-        height: 600px;
-        width: 700px;
+        height: 38rem;
+        width: 90vw;
     }
 
 }
@@ -73,11 +68,11 @@
 .picture1{
 
     width:100%;
-    height: 300px;
+    height: 19rem;
     object-fit: cover;
 }
 
-@media(mac-width:768px){
+
     
 
     
@@ -87,7 +82,8 @@
     }
 
 
-}
+    
+
 
 
 .btn{
@@ -121,7 +117,7 @@
 @media(max-width:768px){
 
     .card-body{
-        margin-top: 10px;
+        margin-top: 0.7rem;
         background-color: #f9f9f9;
     }
 }
@@ -132,6 +128,8 @@
 
 .card-text{
     margin: 20px 0!important;
+    line-height: 2;
+
 }
 
 .card-title:hover {
@@ -154,14 +152,14 @@
 
 .main2{
     margin-left: 28px;
-    width: 500px;
-    height: 900px;
+    width: 100%;
+    height: 57rem;
 }
 
 
 
 .main2-alt1{
-    width: 250px;
+    width: 90%;
 }
 
 
@@ -171,20 +169,20 @@
     display: flex;
     flex-wrap: wrap;
     justify-content:flex-start;
-    padding: 8px;
+    padding: 0.5rem;
     
 }
 
 @media(max-width: 768px)
 {
     .main2{
-    width: 100%;
+    width: 90vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-left: 0px;
-    margin-top: 30px;
+    margin-top: 2rem;
     } 
 
 }
@@ -198,7 +196,7 @@
     @media(max-width: 768px){
 
         .main2-alt1{
-            width: 700px;
+            width: 90vw;
             display: flex;
             flex-direction: column;
         }
@@ -211,7 +209,7 @@
 
         .popular{
 
-            margin-top: 210px;
+            margin-top: 20rem;
         }
             
         
@@ -219,21 +217,20 @@
 
 
 li{
-    margin: 5px;
-    font-size: 12px;
+    margin: 0.5rem;
+    font-size: 0.75rem;
     background-color: #f9f9f9;
-    width: 70px;
-    height: 35px;
+    width: 4.5rem;
+    height: 2rem;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 3px;
-    line-height: 36px;
     }
 
 
-    @media(max-width: 768){
+    @media(max-width: 768px){
         .li{
             display: flex;
             flex-direction: row;
@@ -253,12 +250,12 @@ li:hover{
 
 .popular{
     font-weight: 550;
-    margin-left: 12px;
+    margin-left: 0.75rem;
 }
 
 
 .main2-alt2{
-    margin: 25px 0;
+    margin: 1.5rem 0;
     display: flex;
     flex-direction: column;
 
@@ -267,30 +264,30 @@ li:hover{
 @media(max-width: 768px){
 
     .main2-alt2{
-        width: 700px;
-        height: 600px;
+        width: 100%;
+        height: 37.5rem;
 
     }
 }
 
 .pop-post{
     font-weight: 550;
-    margin-top: 30px;
+    margin-top: 2rem;
 }
 
 .post-picture{
-    width: 250px;
-    height: 150px;
+    width: 16rem;
+    height: 9.5rem;
     object-fit: cover;
-    margin-bottom: 18px;
+    margin-bottom: 1rem;
     
 }
 
 @media(max-width: 768px){
 
     .post-picture{
-        width: 700px;
-        height: 400px;
+        width: 100%;
+        height: 25rem;
         object-fit: cover;
     }
 
@@ -299,17 +296,17 @@ li:hover{
     }
 }
 .aug{
-    font-size: 12px;
+    font-size: 0.75rem;
     opacity: 0.5;
 }
 
 .jon{
     opacity: 0.5;
-    font-size: 12px;
+    font-size: 0.75rem;
 }
 
 .comment2{
-    font-size: 12px;
+    font-size: 0.75rem;
     margin-top: 0px;
     color: rgb(42, 202, 176);
 }
@@ -356,7 +353,7 @@ li:hover{
 @media(max-width: 768px){
 
     .main-alt3{
-        width: 700px;
+        width: 90vw;
     }
 }
 
@@ -409,6 +406,6 @@ li:hover{
 @media(max-width: 768px){
 
     .number{
-        width: 755px;
+        width: 90vw;
     }
 }
