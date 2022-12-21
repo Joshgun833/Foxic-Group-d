@@ -144,6 +144,8 @@
     padding: 5px;
     margin: 5px;
     display: flex;
+    opacity: 0.5;
+
 }
 
 .comment{
