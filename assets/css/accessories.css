@@ -123,6 +123,9 @@ i {
     font-size: 25px;
 
 }
+.menu{
+    margin-bottom: 20px;
+}
 
 .menu {
     display: flex;
@@ -257,13 +260,84 @@ line-height: 29px;
     display: flex;
     justify-content: space-between;
 }
+
+
+.popular-tags ul li{
+font-size: 13px;
+background-color: #f9f9f9;
+display: inline-block;
+padding: 6px 13px;
+box-sizing: border-box;
+text-transform: uppercase;
+margin-right: 6px;
+margin-left: 0px;
+cursor: pointer;
+}
+
+.popular-tags ul li:hover{
+    background-color: #17c6aa;
+    transition: 0.5s;
+    color: white;
+}
+.popular-tags{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0px;
+    
+   
+}
+.popular-tags ul{
+    
+    margin-left: 0px;
+}
+ul{
+    padding-left: 0px;
+}
+#jeans{
+    background-color: #17c6aa;
+    color: white;
+}
+.baner img{
+    width: 100%;
+    cursor: pointer;
+}
+
+
+/* ***************************************************************************************** */
 .images img{
     width: 100%;
 }
-.menu{
-    margin-bottom: 20px;
-}
+
 .images{
     padding-bottom: 20px;
 }
+.circle i{
+    width: 100%;
+    text-align: center;
+    font-size: 200px;
 
+}
+
+
+/* ***************************************************************************************** */
+
+
+
+.class-h2{
+text-align: center;
+margin-top: 60px;
+}
+
+
+
+/* ************************************************************************************************* */
+
+
+.second-images{
+    display: flex;
+    gap: 20px;
+}
+.second-images img{
+    width: 100%;
+   
+}
