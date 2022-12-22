@@ -4,6 +4,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    list-style: none;
 }
 
 .our-blog{
@@ -14,7 +16,7 @@
    margin: 2rem;
 }
 
-.container{
+.main-div{
     display: flex;
     flex-direction: row;
     
@@ -28,7 +30,7 @@
         margin:0px;
     }
     
-    .container{
+    .main-div{
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -219,7 +221,7 @@
     }
 
 
-li{
+.main2-alt1 li{
     margin: 0.5rem;
     font-size: 0.75rem;
     background-color: #f9f9f9;
@@ -234,7 +236,7 @@ li{
 
 
     @media(max-width: 768px){
-        .li{
+        .main2-alt1 li{
             display: flex;
             flex-direction: row;
             margin: 0px;
@@ -242,7 +244,7 @@ li{
     }
 
 
-li:hover{
+.main2-alt1 li:hover{
     background-color:rgb(42, 202, 176);
     color: white;
     cursor: pointer;
@@ -412,3 +414,103 @@ li:hover{
         width: 90vw;
     }
 }
+
+
+/* footer*/
+
+
+
+.footer-head{
+    background-color: #282828;
+    color: #efefef;
+  }
+  .footer-head-blok{
+    display: flex;
+    padding: 45px 15px;
+  }
+  .footer-head-blok .fhb-icon{
+      padding: 0 15px;
+      display: flex;
+      align-items: center;
+  }
+  .fhb-icon svg{
+      fill:rgb(255, 255, 255);
+      pointer-events:all;}
+  
+  
+  footer ul{
+      padding: 0;
+  }
+  .footer-main{
+      padding: 40px 0 50px 0;
+  }
+  
+  
+  .footer-main h1{
+      font-size: 16px;
+      line-height: 27px;
+      margin-top: 10px;
+      margin-bottom: 15px;
+      font-weight: 700;
+      margin-bottom: 21px;
+      color: #282828;
+  }
+  .footer-main ul li>a{
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+      color: #282828 ;
+      text-decoration: none;
+      
+  
+  }
+  .sosial-logo{
+      font-size: 18px;
+  }
+  .sosial-logo a{
+      color: #282828;
+  }
+  .payment-logo{
+      display: flex;
+  }
+  .payment-logo li{
+      padding: 0  25px 0 0;
+  }
+  .footer-copyright{
+      padding: 18px 0;
+      background-color: #f7f7f7;
+  }
+  .footer-copyright a{
+      color: #282828;
+  }
+  footer ul li a:hover{
+      color: rgb(124, 190, 124);
+  }
+  footer ul li:hover a svg{
+      fill:rgb(124, 190, 124)
+      ;
+      stroke: black;
+      pointer-events:all;
+  }
+  .accordion-flush .accordion-item {
+      border: none !important;
+  }
+  
+  
+  
+  @media screen and (max-width: 992px){
+      .sosial-logo-blog{
+          text-align: center;
+      }
+      .footer-main h1 {
+          margin: 0;
+      }
+  
+  
+      .container{
+          max-width: 95% !important;
+      }
+  
+      
+  }
+  
