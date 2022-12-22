@@ -181,7 +181,7 @@
 @media(max-width: 768px)
 {
     .main2{
-    width: 90vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
