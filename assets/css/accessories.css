@@ -237,7 +237,7 @@ span {
     color: #17c6aa;
     transition: 0.5s;
 }
-.relative{
+/* .relative{
     position: relative;
 }
 
@@ -246,7 +246,7 @@ span {
     position: sticky;
     top: 0;
     left: 0px !important; 
-}
+} */
 .bar ul{
     padding: 0px;
     box-sizing: border-box;
@@ -636,6 +636,7 @@ ul{
     width: 135px;
     height: 135px;
     margin-top: 60px;
+    margin-left: 150px;
     text-align: center;
     box-sizing: border-box;
     border-right-color: #17c6aa;
@@ -646,7 +647,18 @@ ul{
 }
 .circle:hover{
     border-bottom-color: #17c6aa;
-    transition: 0.7s;
+    transition: 0.5s;
+
+}
+.circle:hover #p-2{
+    display: block;
+    transition: 0.5s;
+}
+.circle:hover p{
+    display: none;
+}
+#p-2{
+    display: none;
 }
 
 
