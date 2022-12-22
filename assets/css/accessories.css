@@ -353,6 +353,29 @@ ul{
     background-color: #17c6aa;
     color: white;
 }
+
+
+.baner-1{
+    width: 100%;
+    overflow: hidden;
+}
+
+.baner{
+    overflow: hidden;
+   
+    
+}
+.baner img{
+    object-fit: cover;
+    transition: transform 0.5s;
+    width: 100%;
+    
+}
+
+.baner:hover img{
+    transform: scale(1.2);
+}
+
 .baner img{
     width: 100%;
     cursor: pointer;
@@ -385,6 +408,7 @@ ul{
     box-sizing: border-box;
     overflow: hidden;
   }
+  
   .product a {
     width: 100%;
   
@@ -394,6 +418,30 @@ ul{
     /* position: absolute;
    left: 15px;
    z-index: 0.9; */
+  }
+  #sold{
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 106%;
+    width: 44px;
+    padding: 5px 9px;
+    background-color: #282828;
+    color: #fff;
+    position: absolute;
+    left: 15px;
+    top: 5px;
+  } 
+  #new{
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 106%;
+    width: 44px;
+    padding: 5px 9px;
+    background-color: #17c6aa;
+    color: #fff;
+    position: absolute;
+    left: 15px;
+    top: 5px;
   }
   .product a p {
     font-size: 11px;
@@ -491,20 +539,29 @@ ul{
       margin: auto;
       border-radius: 5px;
   }
+
+  .product #btn-pr:hover{
+    background-color: #282828;
+    transition: 0.5s;
+  }
   .product-small-img {
-    position: absolute;
+  position: absolute;
   bottom: 140px;  
   left: -40px;
+  cursor: pointer;
   }
   #product-small-img{
-      top: 0;
-      left: 0;
+  top: 0;
+  left: 0;
   display: flex;
   justify-content: center;
   position: relative;
   }
   #product-small-img img{
       margin: 0 8px;
+  }
+  #scale{
+    filter: grayscale(1);
   }
   .product-small-img img {
     width: 40px;
@@ -572,11 +629,24 @@ ul{
 
 
 /* ************************************************************************************************ */
-.circle i{
-    width: 100%;
-    text-align: center;
-    font-size: 200px;
 
+.circle{
+    border: 3px solid #eeeeee;
+    border-radius: 60%;
+    width: 135px;
+    height: 135px;
+    margin-top: 60px;
+    text-align: center;
+    box-sizing: border-box;
+    border-right-color: #17c6aa;
+    cursor: pointer;
+}
+.circle p{
+    padding-top: 40%;
+}
+.circle:hover{
+    border-bottom-color: #17c6aa;
+    transition: 0.7s;
 }
 
 
@@ -587,6 +657,7 @@ ul{
 .class-h2{
 text-align: center;
 margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 
