@@ -24,14 +24,11 @@
     
 }
 
-
         
-
-
 .visual{
     margin-bottom:2rem;
-    width: 100%;
-    height: 19rem;
+    width: 60vw;
+   min-height: 19rem;
     display: flex;
     
 }
@@ -409,6 +406,15 @@
       .container{
           max-width: 95% !important;
       }
+
+      .main-div{
+        max-width: 95%!important;
+      }
+
+      .visual{
+        width: 70vw;
+        height: 22rem;       
+      }
   
       
   }
@@ -462,7 +468,7 @@
 
 
         .main2-alt1{
-            width: 90vw;
+            width: 80vw;
             display: flex;
             flex-direction: column;
         }
@@ -472,7 +478,7 @@
             flex-direction: row;
             justify-content: flex-start;
             align-items: flex-start;
-            margin: 10px;
+            
         }
 
         
@@ -480,7 +486,7 @@
         .main2-alt1 li{
             display: flex;
             flex-direction: row;
-            margin: 0px;
+            margin: 7px;
         }
 
         .main2-alt2{
