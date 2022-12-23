@@ -1,24 +1,219 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif !important;
   box-sizing: border-box;
   list-style: none;
   text-decoration: none !important;
 }
+i{
+    font-family: FontAwesome !important;
+}
+
+
+
+
+
+.nav-head{
+    background-color: #282828;
+    color: #efefef;
+    padding: 5px 0;
+}
+#sosial-l>a>i{
+    color: #efefef;
+    padding: 0 5px;
+}
+#sosial-l>a>i:hover{
+    color: rgb(128, 176, 55);
+}
+.nav-head-menu{
+    align-items: center;
+    justify-content: center;
+}
+.nav-list{
+    display: flex;
+    justify-content: flex-end;
+margin: 0;}
+.nav-list i{
+    padding: 0 10px;
+}
+.head-animation{
+    text-align: center;
+}
+.head-animation p{
+margin: 0;
+}
+
+.head-animation span{
+    color: green;
+}
+
+.mobile-menu{
+    padding: 0 10px;
+    font-size: 30px!important;
+    margin-bottom:11px ;
+}
+/* font-size: 30px;
+    padding: 0px 7px;
+    position: relative; */
+
+
+.nav-bar{
+    height: 91px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    /* height: 91px;
+    overflow: hidden; */
+}
+.menu li a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    position: relative;
+    display: block;
+    /* padding: 20px 20px; */
+    transition: .2s;
+    text-decoration: none;
+    letter-spacing: .1px;
+    color: #282828;
+}
+.menu li a i{
+padding: 0 10px;
+}
+
+
+
+.home-dropdown{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: #fff;
+    padding: 15px;
+}
+
+.home-dropdown ul li{
+    width: 270px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    
+}
+.home-dropdown ul li img{
+    position: absolute;
+    left: 100%;
+    z-index: 1;
+    display: none;
+
+}
+.img{
+    position: absolute;
+    left: 100%;
+    z-index: 1;
+    display: none;
+}
+.home-dropdown ul li:hover{
+    background-color: #e0d3d8;
+}
+.home-dropdown ul li:hover .img{
+    display: block;
+}
+
+.home-dropdown>ul>li:hover .long-photo{
+    display: block;
+}
+.home-dropdown>ul>li:hover .drop-p{
+    position: relative;
+    left: 15px;
+    transition: 1;
+}
+.home-dropdown ul li p{
+    margin: 0;
+    padding: 4px 0;
+}
+.home-dropdown ul li a{    
+    font-size: 13px;
+    line-height: 18px;
+    position: relative;
+    display: block;
+    padding: 5px 10px;
+    transition: .2s ease;
+    color: #282828;
+}
+.home:hover .home-dropdown{
+    display: flex;
+}
+.pages:hover .home-dropdown{
+    display: flex;
+}
+.men:hover .home-dropdown{
+    display: flex;
+}
+.women:hover .home-dropdown{
+    display: flex;
+}
+
+
+
+.nav-icon{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.nav-icon i{
+    font-size: 33px;
+    padding: 0 14px;
+    position: relative;
+    
+}
+.count-cart{
+    position: absolute;
+    color: whitesmoke;
+    font-size: 12px;
+    padding: 3px 6px ;
+    border-radius: 50%;
+    background-color: #282828;
+    left: 4px;
+    bottom: 0;
+}
+
+
+
+
+
+
+
+
+
 
 .slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   box-sizing: border-box;
-  height: 90vh;
-  /* overflow: auto; */
+  max-height: 80vh;
+  overflow: hidden;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.carousel-item{
 }
 .slide img {
-  min-width: 100%;
-  min-height: 100%;
+  object-fit: cover;
+  padding: 30px 0;
 }
-.slide .carousel {
-  height: 100%;
+.slide video {
+ object-fit: cover;
 }
+
 .slide .carousel .carousel-inner {
   height: 100%;
 }
@@ -29,6 +224,24 @@
   min-width: 100%; 
   min-height: 100%;
 } */
+#ss{
+position: absolute;
+bottom: 50%;
+left: 20%;
+transform: translateX(-50%);
+transition: 1s;
+text-align: center;
+}
+#text{
+    font-size: 50px;
+}
+.brands{
+    padding: 40px 0;
+
+}
+.bnslider-vert{
+    text-align: center !important;
+}
 
 .material-symbols-outlined {
   font-variation-settings:
@@ -112,6 +325,7 @@
 .collections-nav {
   display: flex;
   justify-content: center;
+  padding: 25px 0;
 }
 .collections-nav h3 {
   margin: 0 5px;
@@ -123,6 +337,7 @@
   overflow: hidden;
   box-sizing: border-box;
   overflow: hidden;
+  margin: 5px 0;
 }
 .product a {
   width: 100%;
@@ -521,6 +736,14 @@ footer ul li:hover a svg{
 @media screen and (max-width: 768px){
 
    
+.banner-2-text h2 {
+    font-size: 16px;
+    line-height: 1rem;
+    margin-bottom: 5px;
+}
+.banner-2-text p {
+    margin-bottom: 5px;
+}
   
     
 }
